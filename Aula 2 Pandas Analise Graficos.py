@@ -3,7 +3,7 @@ import numpy
 from IPython.display import display
 import plotly.express as px
 
-tabela = pd.read_csv(r'E:\Programmer\Estudos\Extra\Python\Aulas Intensivao\Aula 2\telecom_users.csv')
+tabela = pd.read_csv(r'Arquivos/Aula 2/telecom_users.csv')
 tabela = tabela.drop('Unnamed: 0', axis=1)
 
 # axis = 0 para linha,1 para coluna
